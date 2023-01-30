@@ -1,6 +1,8 @@
 function Reset() {
     $('div[name="error"]').addClass('d-none');
     $('div[name="success"]').addClass('d-none');
+	$('#number1').val('');
+    $('#number2').val('');
 }
 
 function CheckData(str) {
@@ -51,6 +53,12 @@ function sort(str) {
     return ch.sort().join('');
 }
 
+
+function Reset2() {
+    $('#lstNumber').html('');
+    $('#lstResult').html('');
+	$('#lstError').html('');
+}
 
 function TaoSoNgauNhien(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
