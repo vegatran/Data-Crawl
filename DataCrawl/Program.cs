@@ -126,16 +126,6 @@ internal class Program
     }
 }
 
-//#region Lấy danh sách thẻ ngày trong tuần
-
-//#endregion
-//#region Lấy danh sách tin theo ngày
-
-//#endregion
-
-//#region Đọc chi tiết của từng tin để lấy ra danh sách các tin có nhiều người tương tác nhất
-//#endregion
-
 public class CrawlData {
     public async static Task<List<Pages>> GetDate(IPage page, string selectorNode)
     {

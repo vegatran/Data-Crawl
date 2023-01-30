@@ -528,11 +528,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Jacob\\Tam Anh\\DataCrawl\\DataCrawl.csproj",
+      "projectUniqueName": "D:\\Jacob\\Tam Anh\\Data-Crawl\\DataCrawl\\DataCrawl.csproj",
       "projectName": "DataCrawl",
-      "projectPath": "D:\\Jacob\\Tam Anh\\DataCrawl\\DataCrawl.csproj",
+      "projectPath": "D:\\Jacob\\Tam Anh\\Data-Crawl\\DataCrawl\\DataCrawl.csproj",
       "packagesPath": "C:\\Users\\jacob.tran\\.nuget\\packages\\",
-      "outputPath": "D:\\Jacob\\Tam Anh\\DataCrawl\\obj\\",
+      "outputPath": "D:\\Jacob\\Tam Anh\\Data-Crawl\\DataCrawl\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jacob.tran\\AppData\\Roaming\\NuGet\\NuGet.Config",
