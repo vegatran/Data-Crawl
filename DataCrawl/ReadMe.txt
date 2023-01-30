@@ -10,7 +10,7 @@ mà em chỉ lấy ra 10 bài viết có nhìu bình luận nhất.
 Sau đó e đọc chi tiết của mỗi bài viết để lấy ra số lượng like của mỗi dòng bình luận,
 rồi em sum lại và bắt đầu xắp xếp thứ tự của 10 bài viết đó.
 
-Chưa lấy được bài viết theo ngày của tuoitre.vn
+Em chưa lấy được bài viết theo ngày của tuoitre.vn
 
 Câu 1, 2
 Dùng thư viện undercore.js để lọc data
