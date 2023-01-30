@@ -1,0 +1,110 @@
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyProject</title>
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">My Project</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            <div class="card">
+                <div class="card-header">
+                    <h3>Câu 1</h3>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col col-lg-6">
+                            <div class="form-group">
+                                <label>Number 1</label>
+                                <input class="form-control" id="number1" type="number" />
+                            </div>
+                        </div>
+                        <div class="col col-lg-6">
+                            <div class="form-group">
+                                <label>Number 2</label>
+                                <input class="form-control" id="number2" type="number" />
+                            </div>
+                        </div>
+					
+                        <div class="col col-lg-12 mt-2">
+                            <div class="alert alert-success alert-dismissible d-none" name="success">
+                                <h5><i class="icon fas fa-check"></i> Success!</h5>
+                                Equivalent.
+                            </div>
+                            <div class="alert alert-danger alert-dismissible d-none" name="error">
+                                <h5><i class="icon fas fa-check"></i> Error!</h5>
+                                <p>Not equivalent.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-primary" type="button" onclick="Permutation()">Submit</button>
+
+                    <button class="btn btn-secondary" type="button" onclick="Reset()">Reset</button>
+                </div>
+            </div>
+            <hr/>
+            <div class="card">
+                <div class="card-header">
+                    <h3>Câu 2</h3>
+                </div>
+                <div class="card-body">
+					<div class="row">
+						<div class="col col-lg-4"></div>
+					</div>
+                    <div class="row">
+                        <div class="col col-lg-12">
+                            <label>Danh sách ngẫu nhiên</label>
+                            <div class="col col-lg-12 alert alert-info" id="lstNumber">
+                            </div>
+                        </div>
+                        <div class="col col-lg-12">
+                            <label>Danh sách thỏa yêu cầu</label>
+                            <div class="col col-lg-12 alert alert-success" id="lstResult">
+                            </div>
+                        </div>
+                        <div class="col col-lg-12">
+                            <label>Danh sách không thỏa</label>
+                            <div class="col col-lg-12 alert alert-danger" id="lstError">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-primary" type="button" onclick="TaoDanhSachSo()">Submit</button>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2021 - MyProject.Website - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="lib/jquery/dist/jquery.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/site.js" asp-append-version="true"></script>
+    <script src="script/home.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/underscore@1.13.6/underscore-umd-min.js"></script>
+</body>
+</html>
+
+
